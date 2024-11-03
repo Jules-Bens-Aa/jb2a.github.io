@@ -6,3 +6,6 @@ url: https://Jules-Bens-Aa.github.io/jb2a.github.io
 
 aux_links:
   Template Repository: https://github.com/Jules-Bens-Aa/jb2a.github.io
+
+# Color scheme supports "light" (default) and "dark"
+color_scheme: dark
