@@ -11,4 +11,5 @@ nav_order: 1
 
 > _Yes! Here is the link to the [Sequencer wiki](https://fantasycomputer.works/FoundryVTT-Sequencer/#/)_
 
+#### Sequencer Documentation
 </details>
