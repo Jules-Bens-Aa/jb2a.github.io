@@ -8,7 +8,7 @@ layout: page
 # Automated-Animations - Troubleshooting
 
 * _More info about Automated-Animations [insert links]_
-* _Troubleshooting steps [insert link]_
+* _General Troubleshooting steps [insert link]_
 
 ***
 
