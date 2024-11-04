@@ -1,17 +1,17 @@
-title: JB2A - Knowledge Base
+title: JB2A - Wiki
 description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
 
 url: https://Jules-Bens-Aa.github.io/jb2a.github.io
 
 aux_links:
-  Template Repository: https://github.com/Jules-Bens-Aa/jb2a.github.io
+  Wiki Repository: https://github.com/Jules-Bens-Aa/jb2a.github.io
 
 # Color scheme supports "light" (default) and "dark"
 color_scheme: jb2a-theme
 
 # Set a path/url to a logo that will be displayed instead of the title
-logo: "/assets/images/logo-square.png"
+# logo: "/assets/images/logo-square.png"
 
 # Set a path/url to a favicon that will be displayed by the browser
 favicon_ico: "/assets/images/favicon.ico"
