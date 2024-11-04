@@ -5,7 +5,7 @@ grand_parent: Foundry VTT
 layout: page
 ---
 
-***
+# Automated-Animations - Troubleshooting
 
 ### I can't get rid of the animation
 
