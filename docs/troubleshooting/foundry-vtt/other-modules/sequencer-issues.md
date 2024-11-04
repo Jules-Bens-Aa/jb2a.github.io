@@ -1,7 +1,7 @@
 ---
 title: Sequencer
 parent: Other Modules
-grand_parent: Foundry VTT
+ancestor: Troubleshooting
 layout: page
 ---
 
