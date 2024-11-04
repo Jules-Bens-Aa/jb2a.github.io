@@ -1,6 +1,6 @@
 ---
 title: Other Modules
-parent: Foundry VTT
+parent: Foundry VTT Issues
 layout: page
 nav_order: 1
 ---
