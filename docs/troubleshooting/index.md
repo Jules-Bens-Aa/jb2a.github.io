@@ -30,16 +30,25 @@ Ooooh ... I'm Stuck !
 ## Patreon doesn't let me upgrade/downgrade my subscription to another tier
 
 
-{: .important }
-> A paragraph
->
-> Another paragraph
->
-> The last paragraph
+{: title="Blockquote title"}
+A paragraph
+Another paragraph
+The last paragraph
 
 
 > {: .highlight }
-  A paragraph
+  Highlight with block
+
+{: .highlight }
+Highlight without block
+
+{: .note }
+A Note
+
+{: .note-title }
+> My note title
+>
+> A paragraph with a custom title callout
 
 
 ## I can't access the Master Post on Patreon

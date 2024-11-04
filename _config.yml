@@ -24,7 +24,7 @@ favicon_ico: "/assets/images/favicon.ico"
 enable_copy_code_button: true
 
 # Callouts Customisation
-callouts_level: quiet # or loud
+callouts_level: loud # or quiet. By default, loud for dark mode or quiet for light mode
 callouts:
   highlight:
     color: yellow
@@ -41,6 +41,8 @@ callouts:
     title: Warning
     color: red
 
+# We can change the opacity of all callouts
+# callouts_opacity: 0.3
 
 # Footer content
 # appears at the bottom of every page's main content
