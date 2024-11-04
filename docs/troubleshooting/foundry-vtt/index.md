@@ -1,5 +1,5 @@
 ---
-title: Foundry VTT Issues
+title: Foundry VTT
 parent: Troubleshooting
 layout: page
 nav_order: 2
