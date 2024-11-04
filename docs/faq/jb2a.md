@@ -5,7 +5,7 @@ layout: page
 nav_order: 1
 ---
 
-# About JB2A
+# About us
 What is JB2A?
 
 Are you only creating for DnD5e?
@@ -48,11 +48,14 @@ I’m streaming my games, can I use animations during my stream?
 
 I’m creating a module, can I add JB2A’s animations in it?
 
-# About the Complete collection
+# About our Content
 
 What is the difference between the free pack and the complete collection pack?
 
 Are there other JB2A packs I need to know about?
+
+## The Demo Content
+## The Complete collection
 
 JB2A animations aren't enough, are there other animation packs for VTT?
 
@@ -62,10 +65,10 @@ How to install the complete collection on FoundryVTT?
 
 Can I update the Complete Collection directly on FoundryVTT?
 
-# About Only new stuff zip file
+## The "Only new stuff" zip file
+
+How to install the Only new stuff?
 
 What is the difference between Only New Stuff and the Complete Collection zip files?
 
 My complete collection version is below the current Only New Stuff available, how can I find the missing ones?
-
-How to install the Only new stuff?
