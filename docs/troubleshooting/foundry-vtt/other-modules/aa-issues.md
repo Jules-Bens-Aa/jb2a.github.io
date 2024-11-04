@@ -7,6 +7,8 @@ layout: page
 
 # Automated-Animations - Troubleshooting
 
+***
+
 ### I can't get rid of the animation
 
 > It might be an overhead tile, a Sequencer Effect or a corrupted flag. 
