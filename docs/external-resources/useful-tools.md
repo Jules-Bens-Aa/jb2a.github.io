@@ -1,6 +1,6 @@
 ---
-title: Windows Capture Tool
+title: Useful Tools
 parent: External Resources
 layout: page
-nav_order: 2
+nav_order: 15
 ---

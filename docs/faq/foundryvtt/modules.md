@@ -5,8 +5,9 @@ grand_parent: Frequently Asked Questions
 layout: page
 nav_order: 0
 ---
+# Questions about other modules on FoundryVTT
 
-# Automated Animations
+## Automated Animations
 
 What is Automated Animations?
 
@@ -26,7 +27,7 @@ How can I access the Auto-Recognition menu?
 
 How can I check if my effects are correctly set?
 
-# Sequencer
+## Sequencer
 
 What is Sequencer?
 
@@ -48,6 +49,6 @@ What is the purpose of the Sequencer Manager?
 
 Where can I find tutorials for Sequencer?
 
-# TMFX
+## TMFX
 
-# Warpgate
+## Warpgate

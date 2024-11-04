@@ -2,10 +2,14 @@ title: JB2A - Wiki
 description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
 
+#URL of the Title
 url: https://Jules-Bens-Aa.github.io/jb2a-wiki
 
+# Aux links for the upper right navigation
 aux_links:
   Wiki Repository: https://github.com/Jules-Bens-Aa/jb2a-wiki
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: true
 
 # Color scheme supports "light" (default) and "dark"
 color_scheme: jb2a-theme
@@ -15,3 +19,39 @@ color_scheme: jb2a-theme
 
 # Set a path/url to a favicon that will be displayed by the browser
 favicon_ico: "/assets/images/favicon.ico"
+
+# For copy button on code
+enable_copy_code_button: true
+
+# Callouts Customisation
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
+
+
+# Footer content
+# appears at the bottom of every page's main content
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+footer_content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quas explicabo, ea accusamus similique sint deleniti cum, doloribus doloremque nisi corrupti veritatis veniam officia ipsum animi temporibus dolorem quibusdam recusandae?'
+
+# Footer last edited timestamp
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+

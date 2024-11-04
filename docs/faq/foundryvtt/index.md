@@ -4,8 +4,9 @@ parent: Frequently Asked Questions
 layout: page
 nav_order: 2
 ---
+# Questions related to FoundryVTT and Hosting
 
-# About Foundry VTT
+## About Foundry VTT
 
 What internet browser should I use with your animations?
 
@@ -19,10 +20,10 @@ Where can I find the game system version I’m currently using on FoundryVTT?
 
 Where can I find a module version I’m currently on FoundryVTT?
 
-# Online Hosting
-## Foundry Server
-## Forge
+## Online Hosting
+### Foundry Server
+### Forge
 
 How can I install JB2A’s Complete Collection on Forge?
 
-## Molten Hosting
+### Molten Hosting

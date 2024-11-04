@@ -4,4 +4,5 @@ layout: page
 nav_order: 2
 ---
 
-Frack !
+This is a compendium of questions we gathered from our Discord server.
+
