@@ -1,5 +1,5 @@
 ---
-title: My First Steps
+title: First Steps
 layout: page
 nav_order: 1
 ---
