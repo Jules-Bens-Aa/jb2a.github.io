@@ -1,7 +1,7 @@
 ---
 title: Modules
 parent: JB2A
-ancestry: Troubleshooting
+ancestor: Troubleshooting
 layout: page
 nav_order: 0
 ---
