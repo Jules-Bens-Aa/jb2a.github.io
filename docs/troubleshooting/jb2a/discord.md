@@ -1,6 +1,7 @@
 ---
 title: Discord Server
 parent: JB2A
+ancestry: Troubleshooting
 layout: page
 nav_order: 2
 ---

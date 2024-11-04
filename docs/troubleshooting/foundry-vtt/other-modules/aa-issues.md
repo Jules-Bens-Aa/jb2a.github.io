@@ -7,6 +7,9 @@ layout: page
 
 # Automated-Animations - Troubleshooting
 
+* _More info about Automated-Animations [insert links]_
+* _Troubleshooting steps [insert link]_
+
 ***
 
 ### I can't get rid of the animation
@@ -17,7 +20,23 @@ layout: page
 > 2. Check the Sequencer Effect Manager tool here [insert image]
 > 3. How to reset Sequencer flags [insert link]
 
-***
+### A-A is not compatible with my game system, what can I do?
 
+> 
 
+### I click on a spell, nothing happens
+
+> 
+
+### I get this error
+
+[insert image]
+
+> 
+
+### There's no option for...
+
+> As great as Automated-Animations is, there are limitations to what you can do. 
+> If the option is missing, it probably requires a macro scripting solution.
+> * Make sure the 
 
