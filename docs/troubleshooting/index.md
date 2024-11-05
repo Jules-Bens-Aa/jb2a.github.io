@@ -13,6 +13,12 @@ Ooooh ... I'm Stuck !
 
 ***
 
+:+1:
+
+<video oncontextmenu="return false" id="AnimatedLogo" autoplay="true" muted="true" loop>
+    <source src="/assets/images/logo-simple.webm" type="video/webm"></source>
+</video>
+
 <details open markdown="block">
   <summary>
     Page Contents
