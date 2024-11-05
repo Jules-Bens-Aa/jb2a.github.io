@@ -9,3 +9,13 @@ h1,
   font-weight: 300;
   @include fs-8;
 }
+
+h2,
+.text-beta {
+  @include fs-6;
+  &::after {
+    content:' ';
+    display:block;
+    border:1px solid #ffba00;
+  }
+}
