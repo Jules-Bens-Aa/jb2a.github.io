@@ -22,10 +22,11 @@ favicon_ico: "/assets/images/favicon.ico"
 
 # Enable or disable the search button that appears in the bottom right corner of every page
 # Supports true or false (default)
-search.button: true
-
+# ctrl + f to focus on the searchbar
 search:
+    button: true
     focus_shortcut_key: 'f'
+    
 
 
 # For copy button on code
