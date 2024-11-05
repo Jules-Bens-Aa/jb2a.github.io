@@ -6,7 +6,7 @@ theme: just-the-docs
 url: https://Jules-Bens-Aa.github.io/jb2a-wiki
 
 # Set a path/url to a logo that will be displayed instead of the title
-# logo: "/assets/images/logo-square.png"
+logo: "/assets/images/jb2a-wiki-banner-02.png"
 
 # Aux links for the upper right navigation
 aux_links:
@@ -37,12 +37,12 @@ enable_copy_code_button: true
 callouts_level: loud # or quiet. By default, loud for dark mode or quiet for light mode
 callouts:
   highlight:
-    color: yellow
-  important:
-    title: Important
+    color: jb2a_yellow
+  info:
+    title: Info
     color: blue
-  new:
-    title: New
+  tips:
+    title: Tips
     color: green
   note:
     title: Note

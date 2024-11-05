@@ -7,25 +7,20 @@ nav_order: 100
 
 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quas explicabo, ea accusamus similique sint deleniti cum, doloribus doloremque nisi corrupti veritatis veniam officia ipsum animi temporibus dolorem quibusdam recusandae?
 
-
 ## H2 Title
 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quas explicabo, ea accusamus similique sint deleniti cum, doloribus doloremque nisi corrupti veritatis veniam officia ipsum animi temporibus dolorem quibusdam recusandae?
 > **This is a blockquote following a header.**
 >
 > Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quas explicabo, ea accusamus similique sint deleniti cum, doloribus doloremque nisi corrupti veritatis veniam officia ipsum animi temporibus dolorem quibusdam recusandae?
 
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quas explicabo, ea accusamus similique sint deleniti cum, doloribus doloremque nisi corrupti veritatis veniam officia ipsum animi temporibus dolorem quibusdam recusandae?
-
-
 ### H3 Title
+Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quas explicabo, ea accusamus similique sint deleniti cum, doloribus doloremque nisi corrupti veritatis veniam officia ipsum animi temporibus dolorem quibusdam recusandae?
+{: .highlight}
+
 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quas explicabo, ea accusamus similique sint deleniti cum, doloribus doloremque nisi corrupti veritatis veniam officia ipsum animi temporibus dolorem quibusdam recusandae?
 
-{: .warning }
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quas explicabo, ea accusamus similique sint deleniti cum, doloribus doloremque nisi corrupti veritatis veniam officia ipsum animi temporibus dolorem quibusdam recusandae?
-
-
-#### H4 Title is intersting because it is capitalised
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quas explicabo, ea accusamus similique sint deleniti cum, doloribus doloremque nisi corrupti veritatis veniam officia ipsum animi temporibus dolorem quibusdam recusandae?
 ```js
 // Javascript code with syntax highlighting.
 var fun = function lang(l) {
@@ -34,6 +29,30 @@ var fun = function lang(l) {
 }
 ```
 
+### H3 Title
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quas explicabo, ea accusamus similique sint deleniti cum, doloribus doloremque nisi corrupti veritatis veniam officia ipsum animi temporibus dolorem quibusdam recusandae?
+
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quas explicabo, ea accusamus similique sint deleniti cum, doloribus doloremque nisi corrupti veritatis veniam officia ipsum animi temporibus dolorem quibusdam recusandae?
+{: .warning }
+
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quas explicabo, ea accusamus similique sint deleniti cum, doloribus doloremque nisi corrupti veritatis veniam officia ipsum animi temporibus dolorem quibusdam recusandae?
+
+### H3 Title
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quas explicabo, ea accusamus similique sint deleniti cum, doloribus doloremque nisi corrupti veritatis veniam officia ipsum animi temporibus dolorem quibusdam recusandae?
+
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quas explicabo, ea accusamus similique sint deleniti cum, doloribus doloremque nisi corrupti veritatis veniam officia ipsum animi temporibus dolorem quibusdam recusandae?
+{: .note }
+
+## H2 Title
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quas explicabo, ea accusamus similique sint deleniti cum, doloribus doloremque nisi corrupti veritatis veniam officia ipsum animi temporibus dolorem quibusdam recusandae?
+### H3 Title
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quas explicabo, ea accusamus similique sint deleniti cum.
+
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quas explicabo, ea accusamus similique sint deleniti cum, doloribus doloremque nisi corrupti veritatis veniam officia ipsum animi temporibus dolorem quibusdam recusandae?
+{: .tips }
+
+#### H4 Title is intersting because it is capitalised
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quas explicabo, ea accusamus similique sint deleniti cum, doloribus doloremque nisi corrupti veritatis veniam officia ipsum animi temporibus dolorem quibusdam recusandae?
 
 ##### H5 This also could be a question or an issue
 <details markdown="block">

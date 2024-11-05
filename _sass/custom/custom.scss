@@ -7,15 +7,168 @@
 h1,
 .text-alpha {
   font-weight: 300;
+
   @include fs-8;
 }
 
 h2,
 .text-beta {
-  @include fs-6;
-  &::after {
-    content:' ';
-    display:block;
-    border:1px solid #ffba00;
+    border-bottom:1px solid $jb2a_yellow-000;
+    padding-bottom:3px;
+
+    @include fs-6;
+}
+
+h3,
+.text-gamma {
+  color: $jb2a_yellow-000;
+
+  @include fs-5;
+}
+
+h4,
+.text-delta {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: $jb2a_orange-000;
+  @include fs-2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Search
+.search-label {
+  .search-icon {
+    color: $jb2a_orange-300;
   }
+}
+
+.search-result {
+  display: block;
+  padding: $sp-1 $sp-3;
+
+  &:hover,
+  &.active {
+    background-color: $feedback-color
+  }
+}
+
+.search-result-section {
+  color: $body-text-color
+}
+
+.search-result-doc {
+
+  &.search-result-doc-parent {
+    opacity: 1;
+    text-transform: uppercase;
+    color: $link-color
+  }
+
+  .search-result-icon {
+    color: $link-color
+  }
+}
+
+.search-result-rel-url {
+  color: $nav-child-link-color;
+  @include fs-1
+}
+
+.search-result-previews {
+  color: $search-result-preview-color;
+  border-left-color: $border-color;
+}
+
+.search-result-highlight {
+  color: $nav-child-link-color;
+  font-weight: bold
 }

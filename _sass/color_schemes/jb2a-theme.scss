@@ -1,9 +1,50 @@
 @import "./color_schemes/dark";
 
 // Colors
-$link-color: #ffba00;
-$body-background-color: #212121;
-$body-text-color: #dfdfdf;
-$sidebar-color: #141414;
+
+// Grey
+/// 000
+$sidebar-color: $jb2a_grey-000;
+/// 100
+$body-background-color: $jb2a_grey-100;
+$base-button-color: $jb2a_grey-100;
+/// 200
+$search-background-color: $jb2a_grey-200;
+$code-background-color: $jb2a_grey-200;
+/// 300
+$border-color: $jb2a_grey-300;
+
+// Orange
+/// 100
+$nav-child-link-color: $jb2a_orange-100;
+
+// Yellow
+/// 000
+$link-color: $jb2a_yellow-000;
+$code-linenumber-color: $jb2a_yellow-000;
+
+// White
+/// 000
+$body-text-color: $jb2a_white-000;
+$search-result-preview-color: $jb2a_white-000;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
