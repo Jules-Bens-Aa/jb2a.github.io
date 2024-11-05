@@ -5,17 +5,18 @@ theme: just-the-docs
 #URL of the Title
 url: https://Jules-Bens-Aa.github.io/jb2a-wiki
 
+# Set a path/url to a logo that will be displayed instead of the title
+# logo: "/assets/images/logo-square.png"
+
 # Aux links for the upper right navigation
 aux_links:
-  Wiki Repository: https://github.com/Jules-Bens-Aa/jb2a-wiki
+    Asset Library Viewer: https://library.jb2a.com/
+    Wiki Repository: https://github.com/Jules-Bens-Aa/jb2a-wiki
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
 
 # Color scheme supports "light" (default) and "dark"
 color_scheme: jb2a-theme
-
-# Set a path/url to a logo that will be displayed instead of the title
-# logo: "/assets/images/logo-square.png"
 
 # Set a path/url to a favicon that will be displayed by the browser
 favicon_ico: "/assets/images/favicon.ico"
@@ -26,6 +27,8 @@ favicon_ico: "/assets/images/favicon.ico"
 search:
     button: true
     focus_shortcut_key: 'f'
+    
+
 
 # For copy button on code
 enable_copy_code_button: true

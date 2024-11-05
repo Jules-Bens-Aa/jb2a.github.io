@@ -1,0 +1,11 @@
+// Text
+.main-content {
+    text-align: justify !important;
+}
+
+//Headings
+h1,
+.text-alpha {
+  font-weight: 300;
+  @include fs-8;
+}
