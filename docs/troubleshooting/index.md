@@ -10,7 +10,7 @@ Ooooh ... I'm Stuck !
 [Link to FAQ/JB2A/About](/docs/faq/jb2a.html#about-jb2a)
 {: .fs-2 }
 
-<video oncontextmenu="return false" id="AnimatedLogo" autoplay="true" muted="true" loop>
+<video style="width: 256px; display: block; margin: 0 auto; " oncontextmenu="return false" id="AnimatedLogo" autoplay="true" muted="true" loop>
     <source src="/assets/images/logo-simple.webm" type="video/webm"></source>
 </video>
 
