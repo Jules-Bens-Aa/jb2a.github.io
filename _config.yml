@@ -20,6 +20,14 @@ color_scheme: jb2a-theme
 # Set a path/url to a favicon that will be displayed by the browser
 favicon_ico: "/assets/images/favicon.ico"
 
+# Enable or disable the search button that appears in the bottom right corner of every page
+# Supports true or false (default)
+search.button: true
+
+search:
+    focus_shortcut_key: 'f'
+
+
 # For copy button on code
 enable_copy_code_button: true
 
