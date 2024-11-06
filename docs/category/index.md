@@ -16,6 +16,25 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quas explicabo, e
 ### H3 Title
 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
 
+
+<video style="width: 256px; display: block; margin: 0 auto; " oncontextmenu="return false" id="AnimatedLogo" autoplay="true" muted="true" loop>
+    <source src="/assets/images/logo-simple.webm" type="video/webm"></source>
+Your browser does not support the video tag
+</video>
+
+Webms could be displayed like above, or they could be hidden in a collapsed block like shown below
+
+<details markdown="block">
+<summary>Hidden logo of JB2A</summary>
+
+<video style="width: 256px; display: block; margin: 0 auto; " oncontextmenu="return false" id="AnimatedLogo" autoplay="true" muted="true" loop>
+    <source src="/assets/images/logo-simple.webm" type="video/webm"></source>
+Your browser does not support the video tag
+</video>
+
+</details>
+
+
 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quas explicabo, ea accusamus similique sint deleniti cum, doloribus doloremque nisi corrupti veritatis veniam officia ipsum animi temporibus dolorem quibusdam recusandae?
 {: .highlight}
 
@@ -32,6 +51,10 @@ var fun = function lang(l) {
 ### H3 Title
 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quas explicabo, ea accusamus similique sint deleniti cum, doloribus doloremque nisi corrupti veritatis veniam officia ipsum animi temporibus dolorem quibusdam recusandae?
 
+This is a way to display images on the website
+
+<img src="\assets\images\troubleshooting\alpha-fix.png" alt="Alpha fix for webm on FoundryVTT" style="display: block; margin-left: auto; margin-right: auto; width: 50%; " class="responsive">
+
 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quas explicabo, ea accusamus similique sint deleniti cum, doloribus doloremque nisi corrupti veritatis veniam officia ipsum animi temporibus dolorem quibusdam recusandae?
 {: .warning }
 
@@ -39,6 +62,10 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quas explicabo, e
 
 ### H3 Title
 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quas explicabo, ea accusamus similique sint deleniti cum, doloribus doloremque nisi corrupti veritatis veniam officia ipsum animi temporibus dolorem quibusdam recusandae?
+
+A gif instead of an image, fantastic !
+
+<img src="\assets\images\troubleshooting\pixalated-animations.gif" alt="Alpha fix for webm on FoundryVTT" style="display: block; margin-left: auto; margin-right: auto; width: 50%; " class="responsive">
 
 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quas explicabo, ea accusamus similique sint deleniti cum, doloribus doloremque nisi corrupti veritatis veniam officia ipsum animi temporibus dolorem quibusdam recusandae?
 {: .note }
