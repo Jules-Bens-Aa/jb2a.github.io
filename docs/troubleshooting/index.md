@@ -10,7 +10,10 @@ Ooooh ... I'm Stuck !
 [Link to FAQ/JB2A/About](/docs/faq/jb2a.html#about-jb2a)
 {: .fs-2 }
 
-[ ![](../../assets/images/troubleshooting/tiled-templates.png) ](../../assets/images/troubleshooting/tiled-templates-fixed.png)
+
+<div class="post-content">
+    <img src="../../assets/images/troubleshooting/tiled-templates.png" style="width: 200px;" loading="lazy" class="medium-zoom-image" alt="My image" />
+</div>
 
 <video style="width: 256px; display: block; margin: 0 auto; " oncontextmenu="return false" id="AnimatedLogo" autoplay="true" muted="true" loop>
     <source src="/assets/images/logo-simple.webm" type="video/webm"></source>
