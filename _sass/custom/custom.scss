@@ -84,10 +84,77 @@ h4,
   font-weight: bold
 }
 
-// Buttons and things that look like buttons
-// stylelint-disable color-named
+//Search Button
 
-.btn, .search-button {
+.search-button {
+  position: fixed;
+  right: $sp-4;
+  bottom: $sp-4;
+  display: flex;
+  width: $sp-9;
+  height: $sp-9;
+  background-color: $search-background-color;
+  border: 1px solid rgba($jb2a_grey-300, 1);
+  border-radius: #{$sp-2 * 0.5};
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, .75),
+    0 3px 10px rgba(0, 0, 0, .75);
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  &:focus {
+    text-decoration: none;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba($jb2a_yellow-300, 1);
+  }
+
+  &:hover {
+    text-decoration: none;
+    background-color: darken($base-button-color, .05%);
+  }
+}
+
+//Collapsible Block
+
+details > summary {
+//  list-style-type: '▶️';
+color: $jb2a_yellow-000
+}
+
+// details[open] > summary {
+//   list-style-type: '🔽';
+// }
+
+// Site Title and Button
+
+.site-title:hover {
+  background-image: linear-gradient(
+    -90deg,
+    rgba($jb2a_yellow-000, 1) 0%,
+    rgba($jb2a_yellow-000, 0.8) 80%,
+    rgba($jb2a_yellow-000, 0) 100%
+  );
+}
+
+.site-button:hover {
+  background-image: linear-gradient(
+    -90deg,
+    rgba($feedback-color, 1) 0%,
+    rgba($feedback-color, 0.8) 100%
+    rgba($feedback-color, 0) 100%
+  );
+}
+
+// Button Colors
+
+.btn-yellow {
+  @include btn-color($jb2a_yellow-000, $jb2a_grey-000);
+}
+
+// Buttons
+
+.btn {
   display: inline-block;
   box-sizing: border-box;
   padding: 0.3em 1em;
@@ -104,24 +171,24 @@ h4,
   border-width: 0;
   border-radius: $border-radius;
   box-shadow:
-    0 1px 2px rgba(0, 0, 0, 0.12),
-    0 3px 10px rgba(0, 0, 0, 0.08);
+    0 1px 2px rgba(0, 0, 0, .33),
+    0 3px 10px rgba(0, 0, 0, .33);
   appearance: none;
 
   &:focus {
     text-decoration: none;
     outline: none;
-    box-shadow: 0 0 0 3px rgba(blue, 0.25);
+    box-shadow: 0 0 0 2px rgba($jb2a_yellow-000, 0.25);
   }
 
   &:focus:hover,
   &.selected:focus {
-    box-shadow: 0 0 0 3px rgba(blue, 0.25);
+    box-shadow: 0 0 0 2px rgba($jb2a_yellow-000, 1);
   }
 
   &:hover,
   &.zeroclipboard-is-hover {
-    color: darken($link-color, 2%);
+    color: darken($link-color, 1%);
   }
 
   &:hover,
@@ -129,7 +196,7 @@ h4,
   &.zeroclipboard-is-hover,
   &.zeroclipboard-is-active {
     text-decoration: none;
-    background-color: darken($base-button-color, 1%);
+    background-color: darken($base-button-color, 100%);
   }
 
   &:active,
@@ -137,7 +204,7 @@ h4,
   &.zeroclipboard-is-active {
     background-color: darken($base-button-color, 3%);
     background-image: none;
-    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 10%);
   }
 
   &.selected:hover {
@@ -155,59 +222,4 @@ h4,
       box-shadow: none;
     }
   }
-}
-
-.btn-outline {
-  color: $link-color;
-  background: transparent;
-  box-shadow: inset 0 0 0 2px $grey-lt-300;
-
-  &:hover,
-  &:active,
-  &.zeroclipboard-is-hover,
-  &.zeroclipboard-is-active {
-    color: darken($link-color, 4%);
-    text-decoration: none;
-    background-color: transparent;
-    box-shadow: inset 0 0 0 3px $grey-lt-300;
-  }
-
-  &:focus {
-    text-decoration: none;
-    outline: none;
-    box-shadow:
-      inset 0 0 0 2px $grey-dk-100,
-      0 0 0 3px rgba(blue, 0.25);
-  }
-
-  &:focus:hover,
-  &.selected:focus {
-    box-shadow: inset 0 0 0 2px $grey-dk-100;
-  }
-}
-
-.btn-primary {
-  @include btn-color($white, $btn-primary-color);
-}
-
-.btn-purple {
-  @include btn-color($white, $purple-100);
-}
-
-.btn-blue {
-  @include btn-color($white, $blue-000);
-}
-
-.btn-green {
-  @include btn-color($white, $green-100);
-}
-
-.btn-reset {
-  background: none;
-  border: none;
-  margin: 0;
-  text-align: inherit;
-  font: inherit;
-  border-radius: 0;
-  appearance: none;
 }
