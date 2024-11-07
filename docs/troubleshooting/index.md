@@ -10,7 +10,7 @@ Ooooh ... I'm Stuck !
 [Link to FAQ/JB2A/About](/docs/faq/jb2a.html#about-jb2a)
 {: .fs-2 }
 
-<a href="../../assets/images/troubleshooting/tiled-templates.png" data-lightbox="image-1" data-title="My caption"><img src="../../assets/images/troubleshooting/tiled-templates.png" style="width: 200px;" /></a>
+
 
 
 
@@ -18,11 +18,10 @@ Ooooh ... I'm Stuck !
     <h3>Two Individual Images</h3>
     <div>
       <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-1.jpg" data-lightbox="example-1"><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-1.jpg" alt="image-1" /></a>
-      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-2.jpg" data-lightbox="example-2" data-title="Optional caption."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-2.jpg" alt="image-1"/></a>
+      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-2.jpg" data-lightbox="example-1" data-title="Optional caption."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-2.jpg" alt="image-1"/></a>
     </div>
-
+    <a href="../../assets/images/troubleshooting/tiled-templates.png" data-lightbox="example-1" data-title="Template Tiled"><img src="../../assets/images/troubleshooting/tiled-templates.png" style="width: 200px;" /></a>
     <hr />
-
     <h3>A Four Image Set</h3>
     <div>
       <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-3.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-3.jpg" alt=""/></a>
