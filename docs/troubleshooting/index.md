@@ -10,10 +10,41 @@ Ooooh ... I'm Stuck !
 [Link to FAQ/JB2A/About](/docs/faq/jb2a.html#about-jb2a)
 {: .fs-2 }
 
+<a href="../../assets/images/troubleshooting/tiled-templates.png" data-lightbox="image-1" data-title="My caption"><img src="../../assets/images/troubleshooting/tiled-templates.png" style="width: 200px;" /></a>
+
+
+
+  <section>
+    <h3>Two Individual Images</h3>
+    <div>
+      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-1.jpg" data-lightbox="example-1"><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-1.jpg" alt="image-1" /></a>
+      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-2.jpg" data-lightbox="example-2" data-title="Optional caption."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-2.jpg" alt="image-1"/></a>
+    </div>
+
+    <hr />
+
+    <h3>A Four Image Set</h3>
+    <div>
+      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-3.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-3.jpg" alt=""/></a>
+      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-4.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-4.jpg" alt="" /></a>
+      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-5.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-5.jpg" alt="" /></a>
+      <a class="example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-6.jpg" data-lightbox="example-set" data-title="Click anywhere outside the image or the X to the right to close."><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-6.jpg" alt="" /></a>
+    </div>
+  </section>
+
+<!-- [![prout](../../assets/images/troubleshooting/tiled-templates.png)](../../assets/images/troubleshooting/tiled-templates.png){:.glightbox}
+[![prout](../../assets/images/troubleshooting/global-pixi-fix.png)](../../assets/images/troubleshooting/global-pixi-fix.png){:.glightbox}
+
+<a href="../../assets/images/troubleshooting/tiled-templates.png" class="glightbox"><img src="../../assets/images/troubleshooting/tiled-templates.png" style="width: 200px;" /></a>
+<a href="../../assets/images/troubleshooting/tiled-templates-fixed.png" class="glightbox"><img src="../../assets/images/troubleshooting/tiled-templates-fixed.png" style="width: 200px;" /></a>
+<a href="../../assets/images/troubleshooting/global-pixi-fix.png" class="glightbox"><img src="../../assets/images/troubleshooting/global-pixi-fix.png" style="width: 200px;" /></a>*
+<a href="../../assets/images/troubleshooting/pixalated-animations.gif" class="glightbox"><img src="../../assets/images/troubleshooting/pixalated-animations.gif" style="width: 200px;" /></a>
+
 
 <div class="post-content">
-    <img src="../../assets/images/troubleshooting/tiled-templates.png" style="width: 200px;" loading="lazy" class="medium-zoom-image" alt="My image" />
-</div>
+    <img src="../../assets/images/troubleshooting/tiled-templates.png" style="width: 200px;" class="medium-zoom-image" alt="My image" />
+    <img src="../../assets/images/troubleshooting/pixi-fix.png" style="width: 200px;" class="medium-zoom-image" alt="My image" />
+</div> -->
 
 <video style="width: 256px; display: block; margin: 0 auto; " oncontextmenu="return false" id="AnimatedLogo" autoplay="true" muted="true" loop>
     <source src="/assets/images/logo-simple.webm" type="video/webm"></source>
